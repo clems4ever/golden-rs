@@ -1,7 +1,10 @@
 [package]
 name = "golden"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+authors = ["Clément Michaud"]
+description = "Create a datadir available during the test to dump golden files."
+license = "MIT"
 
 [dependencies]
 serde = "1.0"
